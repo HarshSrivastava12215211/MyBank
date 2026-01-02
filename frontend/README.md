@@ -1,16 +1,48 @@
-# React + Vite
+Frontend – MyBank (React Application)
+Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The MyBank frontend is a modern, responsive banking web application built using React and JavaScript. It provides users with a clean and intuitive interface to access core banking functionalities such as authentication, dashboards, transactions, loans, and profile management. The frontend communicates with a secure Spring Boot backend via REST APIs.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User Authentication UI (Login & Register)
 
-## React Compiler
+Protected Routing using React Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Dashboard Interface displaying account overview and recent activity
 
-## Expanding the ESLint configuration
+Transaction History with filtering (Credit/Debit)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Loan EMI Calculator with dynamic inputs
+
+Card Controls UI (block/unblock, limits, international usage)
+
+Profile & Security Management
+
+Admin Panel UI for user account management
+
+Responsive and clean UI/UX with global styling
+
+Tech Stack
+
+React
+
+JavaScript (ES6+)
+
+React Router
+
+HTML5 / CSS3
+
+REST API Integration
+
+Application Structure
+
+pages/ – Individual pages (Home, Dashboard, Transactions, Profile, Admin, etc.)
+
+components/ – Reusable UI components (Navbar, Cards, Tables)
+
+styles/ – Global and shared styles
+
+mock/ – Temporary mock data (used during frontend-first development)
+
+

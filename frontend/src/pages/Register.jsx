@@ -14,7 +14,7 @@ function Register() {
   function handleRegister(e) {
     e.preventDefault()
 
-    // 🧪 Mock validation
+   
     if (!name || !email || !phone || !password || !confirmPassword) {
       setError("All fields are required")
       return
@@ -25,7 +25,7 @@ function Register() {
       return
     }
 
-    // ✅ Mock success
+    
     setError("")
     navigate("/login")
   }

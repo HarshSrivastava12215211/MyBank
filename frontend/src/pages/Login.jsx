@@ -11,13 +11,13 @@ function Login() {
   function handleLogin(e) {
     e.preventDefault()
 
-    // 🔐 Mock validation
+    
     if (!email || !password) {
       setError("Please enter email and password")
       return
     }
 
-    // ✅ Mock success
+    
     setError("")
     navigate("/dashboard")
   }

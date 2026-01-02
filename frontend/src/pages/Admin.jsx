@@ -3,7 +3,7 @@ import { users as initialUsers } from "../mock/users"
 import { currentUser } from "../mock/auth"
 
 function Admin() {
-  // 🔐 Access control FIRST
+  
   if (currentUser.role !== "admin") {
     return (
       <div className="page">
